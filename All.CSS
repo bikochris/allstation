@@ -1,0 +1,63 @@
+/* all.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .logo {
+    width: 100%;
+    text-align: center; /* Center align the logo */
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    width: 100%; /* Ensure full width */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allow content to grow and take remaining space */
+  }
+  
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .photos {
+    width: 20%; /* Adjust width as needed */
+    margin-right: 20px; /* Right margin */
+    flex-shrink: 0; /* Do not shrink beyond specified width */
+  }
+  
+  .photos img {
+    display: block;
+    width: 100%; /* Make the images responsive */
+    margin-bottom: 10px; /* Add some space between images */
+  }
+  
